@@ -1,6 +1,4 @@
-# Movie-Search-Application
-The Movie Search Application is a web application that fetches and displays movie data from the OMDb API.
-
+Movie Search Application
 Project Overview
 The Movie Search Application is a web application that fetches and displays movie data from the OMDb API. The goal is to allow users to search for movies by title and filter results by year, while presenting movie information such as ratings, box office collections, plot, and more in a user-friendly UI.
 
