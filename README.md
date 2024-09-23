@@ -90,7 +90,7 @@ Any additional information goes here
 
 ## Documentation
 
-[Documentation](https://linktodocumentation)
+Full project documentation is available in the [GitHub Wiki](https://github.com/gaurharsh/Movie-Search-Application/wiki).
 
 
 ## Support
