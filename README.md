@@ -5,21 +5,21 @@
 The Movie Search Application is a web application that fetches and displays movie data from the OMDb API. The goal is to allow users to search for movies by title and filter results by year, while presenting movie information such as ratings, box office collections, plot, and more in a user-friendly UI.
 
 
-## Table of Contents
-# Features
-# Setup and Run Instructions
-# Usage
-# Assumptions and Decisions
-# Screenshots
-# API Reference
-# Technologies Used
-# Documentation
-# Dependencies
-# Data Handling
-# Badges
-# License
-# Links
-# Support
+# Table of Contents
+## Features
+## Setup and Run Instructions
+## Usage
+## Assumptions and Decisions
+## Screenshots
+## API Reference
+## Technologies Used
+## Documentation
+## Dependencies
+## Data Handling
+## Badges
+## License
+## Links
+## Support
 
 
 
@@ -118,9 +118,8 @@ Multiple Ratings: Show ratings from different sources such as IMDb, Rotten Tomat
 Poster and Trailers: Display movie posters and include links to movie trailers or YouTube searches.
 Favorite/Watchlist: Allow users to mark movies as favorites or add them to a watchlist.
 
-## Assumptions and Decisions
+# Assumptions and Decisions
 
-- Assumptions
 ## Assumption 1: User Input
 
 Brief Description: We assume that users will provide the movie title in a reasonably correct format (spelling, order of words, etc.) for the search. Minor typos or errors may result in no results being returned, as the OMDb API does not support fuzzy search or spell check.
@@ -130,7 +129,7 @@ Brief Description: We assume that users will provide the movie title in a reason
 
 Brief Description: We assume that the OMDb API will consistently return all relevant movie details such as box office collection, ratings, plot, runtime, and actors. However, in cases where certain fields (like box office or director information) are missing, we assume that the API response will provide "N/A" or handle empty fields gracefully.
 
-## Decisions
+# Decisions
 Design Decision: User Interface Simplicity
 
 The UI design prioritizes simplicity and clarity. A clean layout is used where users can search, view results, and filter by year without overwhelming them with too many advanced options. We decided not to clutter the UI with too many filters (such as genre, language, etc.) in the initial version to maintain ease of use.
@@ -150,7 +149,7 @@ Data Structure Decision: Modular Handling of Movie Details
 
 For better maintainability, the movie details are modularized into individual functions, such as displayMovieDetails(), making it easier to extend the application in the future. This allows us to add more features, such as additional details or advanced filters, without rewriting the core logic.
 
-## Interaction
+#  Interaction
 1. ## Landing Page / Home Screen
 Interaction:
 When the user opens the application, they land on a simple home screen.
