@@ -6,13 +6,13 @@ The Movie Search Application is a web application that fetches and displays movi
 
 
 ## Table of Contents
-#Features
-#Setup and Run Instructions
-#Usage
-#Assumptions and Decisions
-#Screenshots
-#API Reference
-#Technologies Used
+Features
+Setup and Run Instructions
+Usage
+Assumptions and Decisions
+Screenshots
+API Reference
+Technologies Used
 ## Features
 - Search for movies by title using the OMDb API.
 - Display detailed movie information: box office collection, ratings, plot, runtime, genre, actors, director, etc.
