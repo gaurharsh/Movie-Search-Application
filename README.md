@@ -5,7 +5,7 @@
 The Movie Search Application is a web application that fetches and displays movie data from the OMDb API. The goal is to allow users to search for movies by title and filter results by year, while presenting movie information such as ratings, box office collections, plot, and more in a user-friendly UI.
 
 
-# Table of Contents
+## Table of Contents
 ### Features
 ### Setup and Run Instructions
 ### Usage
@@ -31,7 +31,8 @@ The Movie Search Application is a web application that fetches and displays movi
 - Filter movies by year for refined search results.
 - Handle API responses and errors gracefully.
 - Responsive and user-friendly UI.
-#### Steps to Set Up Locally
+- 
+### Steps to Set Up Locally
 
 1. **Clone the repository:**
 
@@ -120,12 +121,12 @@ Favorite/Watchlist: Allow users to mark movies as favorites or add them to a wat
 
 ### Assumptions and Decisions
 
-## Assumption 1: User Input
+#### Assumption 1: User Input
 
 Brief Description: We assume that users will provide the movie title in a reasonably correct format (spelling, order of words, etc.) for the search. Minor typos or errors may result in no results being returned, as the OMDb API does not support fuzzy search or spell check.
 
 
-## Assumption 2: Availability of Data from OMDb API
+#### Assumption 2: Availability of Data from OMDb API
 
 Brief Description: We assume that the OMDb API will consistently return all relevant movie details such as box office collection, ratings, plot, runtime, and actors. However, in cases where certain fields (like box office or director information) are missing, we assume that the API response will provide "N/A" or handle empty fields gracefully.
 
@@ -150,7 +151,7 @@ Data Structure Decision: Modular Handling of Movie Details
 For better maintainability, the movie details are modularized into individual functions, such as displayMovieDetails(), making it easier to extend the application in the future. This allows us to add more features, such as additional details or advanced filters, without rewriting the core logic.
 
 ### Interaction
-1. ## Landing Page / Home Screen
+1. #### Landing Page / Home Screen
 Interaction:
 When the user opens the application, they land on a simple home screen.
 The central focus is a search bar where users can enter the movie title they wish to search for.
@@ -160,14 +161,14 @@ Error Message Box: If the search yields no results or an error occurs, a clear e
 Visual Elements:
 A clean, minimal UI with input fields and buttons. Background imagery or subtle design elements related to movies (like movie reels, posters, etc.) can be used to enhance the look.
 
-2. ## Search Results Section
+2. #### Search Results Section
 Interaction:
 After hitting the search button, the application fetches data from the OMDb API.
 The user sees a loading spinner or a placeholder while the results are being fetched to ensure they know the system is processing their request.
 Once the API returns the data, the user is shown detailed information about the searched movie.
 If multiple tabs or sections are present, they are dynamically updated with the movie data.
 
-3. ## Movie Details Section
+3. #### Movie Details Section
 Interaction:
 Title and Poster: The movie title and poster are displayed at the top of the movie details section.
 Key Details: Below the title and poster, detailed movie information is displayed in clear sections:
@@ -185,43 +186,43 @@ If implemented, users can add movies to a Favorites List or Watchlist by clickin
 Users can click a "More Info" button to explore further details such as awards, language, country, etc.
 
 
-4. ## Filter by Year
+4. #### Filter by Year
 Interaction:
 Users can refine their search by entering or selecting a year.
 When a user enters a movie title and year, the search results will only display movies from that specific year.
 This feature is especially useful for searching remakes or movies with similar titles across different years.
 If the year filter is applied, a "Clear Year Filter" button can appear to allow users to reset the search and view results from all years.
 
-5. ## Error Handling Section
+5. #### Error Handling Section
 Interaction:
 If no movie is found or the user enters an invalid query, a user-friendly error message will be displayed in this section.
 The error message might suggest tips like "Try refining your search" or "Make sure the title is spelled correctly."
 Users can close or dismiss the error message easily and try a new search without reloading the page.
 
 
-6. ##  Responsive Design / Mobile Interaction
+6. ####  Responsive Design / Mobile Interaction
 Interaction:
 The application adapts to different screen sizes (mobile, tablet, desktop).
 On smaller screens (like smartphones), the search bar and details section are stacked vertically to allow for easier scrolling.
 Interactive elements like buttons, filters, and links are touch-friendly with appropriate padding to ensure a smooth experience on mobile devices.
 
 
-7. ## Optional: Tabs or Sections for Additional Features
+7. #### Optional: Tabs or Sections for Additional Features
 If the application supports additional tabs or sections, users may navigate between different views:
 Movie Overview Tab: Shows all major movie details like title, ratings, runtime, plot, etc.
 Reviews Tab: Users can switch to a tab that pulls and displays reviews (if available through an API like IMDB or Rotten Tomatoes).
 Similar Movies Tab: Displays similar movies based on the current search, allowing users to explore more content related to their interests.
 Watchlist Tab: Shows a list of movies that the user has saved or favorited.
 
-8. ## Advanced Search Options (If Implemented)
+8. #### Advanced Search Options (If Implemented)
 Interaction:
 The user might have the option to perform an advanced search, where they can add more filters like Genre, Actor, Director, or Language.
 These advanced filters could be shown in a collapsible panel, allowing users to refine their search results for a more tailored experience.
 
 
-9. ## Dark Mode (Optional)
+9. #### Dark Mode (Optional)
 
-# Interaction:
+### Interaction:
 A toggle switch can allow users to switch between light and dark mode.
 This enhances the experience for users who prefer a darker UI or are using the app in low-light conditions.
 Summary of User Interaction Flow:
@@ -232,7 +233,7 @@ Refine Search: The user can refine the search by entering a specific year or add
 Explore More: Users can interact with elements like actors, directors, or genres to explore more information.
 Responsive Design: The app ensures seamless interaction across devices, including mobile and tablet.
 This interaction model ensures that the user is constantly engaged while making the movie search experience straightforward, informative, and enjoyable.
-## Screenshots
+### Screenshots
 
 
 ![Uploading Screenshot (59).png…]()
@@ -241,32 +242,32 @@ This interaction model ensures that the user is constantly engaged while making 
 
 ![Uploading image.png…]()
 
-## API Key Configuration
+### API Key Configuration
 
 - **Never hard-code your API key** in your JavaScript files. Instead, use environment variables or secure ways to handle them.
 - For this project, ensure the API key is managed securely to prevent unauthorized usage.
 
-## Technologies Used
+### Technologies Used
 - **HTML5, CSS3, JavaScript**: For building the frontend and UI interactions.
 - **Bootstrap**: For responsive design and layout.
 - **OMDb API**: To fetch and display movie-related data.
 - **Git & GitHub**: For version control and repository management.
 - 
-## Documentation
+### Documentation
 
 [Documentation](https://linktodocumentation)
 
 
-## Dependencies
+### Dependencies
 
 - No external backend dependencies are required.
 - Optional: Any local development server of your choice (e.g., Python, Node.js).
-## Data Handling
+### Data Handling
 
 - Movie data is fetched in real-time using the OMDb API.
 - If data like box office earnings is unavailable from the OMDb API, future versions may integrate with additional APIs or make reasonable assumptions.
 - Data is displayed in a clean and organized manner for an enhanced user experience.
-## Badges
+### Badges
 
 Add badges from somewhere like: [shields.io](https://shields.io/)
 
@@ -275,19 +276,19 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
 
-## License
+### License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
 
-## 🔗 Links
+### 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://www.polywork.com/harshvardhansingh_gaur)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/harshvardhaninghgaur)
 
 
 
 
-## Support
+### Support
 
 For support, email gaurharsh5590@gmail.com or join our Slack channel.
 
