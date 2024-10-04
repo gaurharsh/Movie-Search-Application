@@ -6,20 +6,20 @@ The Movie Search Application is a web application that fetches and displays movi
 
 
 # Table of Contents
-## Features
-## Setup and Run Instructions
-## Usage
-## Assumptions and Decisions
-## Screenshots
-## API Reference
-## Technologies Used
-## Documentation
-## Dependencies
-## Data Handling
-## Badges
-## License
-## Links
-## Support
+### Features
+### Setup and Run Instructions
+### Usage
+### Assumptions and Decisions
+### Screenshots
+### API Reference
+### Technologies Used
+### Documentation
+### Dependencies
+### Data Handling
+### Badges
+### License
+### Links
+### Support
 
 
 
