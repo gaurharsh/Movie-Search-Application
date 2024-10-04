@@ -222,7 +222,9 @@ This interaction model ensures that the user is constantly engaged while making 
 ## Screenshots
 
 
+![Uploading Screenshot (59).png…]()
 
+![Uploading Screenshot (60).png…]()
 
 ## API Key Configuration
 
