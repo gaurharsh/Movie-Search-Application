@@ -226,6 +226,8 @@ This interaction model ensures that the user is constantly engaged while making 
 
 ![Uploading Screenshot (60).png…]()
 
+![Uploading image.png…]()
+
 ## API Key Configuration
 
 - **Never hard-code your API key** in your JavaScript files. Instead, use environment variables or secure ways to handle them.
