@@ -74,7 +74,7 @@ The Movie Search Application is a web application that fetches and displays movi
 - API key from the [OMDb API](http://www.omdbapi.com/apikey.aspx).
 - 
 ### Usage/Examples
-1. ## Search for Movies by Title
+1. #### Search for Movies by Title
 Implementation:
 Provide a search bar where users can input the movie title.
 Use JavaScript's fetch() or XMLHttpRequest to call the OMDb API with the movie title provided by the user.
@@ -84,13 +84,13 @@ http://www.omdbapi.com/?t=<MOVIE_TITLE>&apikey=<YOUR_API_KEY>
 
 Once the data is fetched, display the movie information in the UI.
 
-2. ### Display Detailed Movie Information
+2. #### Display Detailed Movie Information
 Implementation:
 
 Once the API response is received, extract details such as the box office collection, ratings, plot, runtime, genre, actors, and director from the response data.
 Dynamically update the UI with these details.
 
-3. ### Filter Movies by Year
+3. #### Filter Movies by Year
 Implementation:
 
 Add a dropdown or input field for the user to enter the release year.
@@ -101,12 +101,12 @@ http://www.omdbapi.com/?t=<MOVIE_TITLE>&y=<MOVIE_YEAR>&apikey=<YOUR_API_KEY>
 
 Ensure the filtered results only display movies that match both the title and the year.
 
-4. ### Handle API Responses and Errors Gracefully
+4. #### Handle API Responses and Errors Gracefully
 Implementation:
 Check if the API response contains an error message or if the movie is not found. Display user-friendly error messages accordingly.
 Use try...catch blocks to handle any potential issues with API calls or network errors.
 
-5. ### Responsive and User-Friendly UI
+5. #### Responsive and User-Friendly UI
 Implementation:
 
 Design the UI using HTML and CSS to ensure it is responsive on different screen sizes (e.g., desktop, mobile, tablet).
@@ -114,7 +114,7 @@ Display movie details in an easy-to-read format, with clear separation between s
 Include a loading spinner or placeholder while waiting for the API response to improve user experience.
 Ensure accessibility features like proper labeling of input fields and buttons.
 
-6. ### Bonus Features
+6. #### Bonus Features
 Multiple Ratings: Show ratings from different sources such as IMDb, Rotten Tomatoes, and Metacritic by accessing the Ratings array in the API response.
 Poster and Trailers: Display movie posters and include links to movie trailers or YouTube searches.
 Favorite/Watchlist: Allow users to mark movies as favorites or add them to a watchlist.
