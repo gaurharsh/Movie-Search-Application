@@ -287,7 +287,8 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
 
 
 
-
+###screenshots:
+![Alt text](Screenshot (59).jpg)
 ### Support
 
 For support, email gaurharsh5590@gmail.com or join our Slack channel.
